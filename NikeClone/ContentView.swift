@@ -13,13 +13,22 @@ struct ContentView: View {
         ]
 
     var body: some View {
-        ScrollView {
+        ScrollView(showsIndicators: false) {
             LazyVGrid(columns: columns, spacing: 40) {
                 ForEach(shoes) { shoe in
                     VStack(alignment: .leading) {
+                        ZStack(alignment: .topTrailing) {
                     Image(shoe.image)
                         .resizable()
                         .scaledToFill()
+                            Image(systemName: "heart")
+                                .padding(5)
+                                .foregroundColor(Color.black)
+                                .font(.system(size: 20))
+                                .background(Color.white)
+                                .clipShape(Circle())
+                                .padding(10)
+                        }
                         Text(shoe.name)
                             .font(.headline)
                             .padding(.vertical, 1)
