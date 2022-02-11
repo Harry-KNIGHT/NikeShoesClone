@@ -21,6 +21,7 @@ struct ContentView: View {
                     Image(shoe.image)
                         .resizable()
                         .scaledToFill()
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
                             Image(systemName: "heart")
                                 .padding(5)
                                 .foregroundColor(Color.black)
@@ -53,5 +54,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
+.previewInterfaceOrientation(.portrait)
     }
 }
