@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C24910428168B5600D8F39D /* ShoesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24910328168B5600D8F39D /* ShoesView.swift */; };
+		3C24910628168BA500D8F39D /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24910528168BA500D8F39D /* MainPageView.swift */; };
+		3C24910828168E4500D8F39D /* MainPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24910728168E4500D8F39D /* MainPageModel.swift */; };
+		3C24910A28168F1100D8F39D /* PhotoExemple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24910928168F1100D8F39D /* PhotoExemple.swift */; };
+		3C24910C2816983C00D8F39D /* CarrouselShoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C24910B2816983C00D8F39D /* CarrouselShoes.swift */; };
 		3C2D9B0627B5C1630047BD09 /* NikeCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D9B0527B5C1630047BD09 /* NikeCloneApp.swift */; };
 		3C2D9B0827B5C1630047BD09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D9B0727B5C1630047BD09 /* ContentView.swift */; };
 		3C2D9B0A27B5C1640047BD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D9B0927B5C1640047BD09 /* Assets.xcassets */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C24910328168B5600D8F39D /* ShoesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesView.swift; sourceTree = "<group>"; };
+		3C24910528168BA500D8F39D /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
+		3C24910728168E4500D8F39D /* MainPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageModel.swift; sourceTree = "<group>"; };
+		3C24910928168F1100D8F39D /* PhotoExemple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoExemple.swift; sourceTree = "<group>"; };
+		3C24910B2816983C00D8F39D /* CarrouselShoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselShoes.swift; sourceTree = "<group>"; };
 		3C2D9B0227B5C1630047BD09 /* NikeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2D9B0527B5C1630047BD09 /* NikeCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeCloneApp.swift; sourceTree = "<group>"; };
 		3C2D9B0727B5C1630047BD09 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +65,11 @@
 			children = (
 				3C2D9B0527B5C1630047BD09 /* NikeCloneApp.swift */,
 				3C2D9B0727B5C1630047BD09 /* ContentView.swift */,
+				3C24910528168BA500D8F39D /* MainPageView.swift */,
+				3C24910B2816983C00D8F39D /* CarrouselShoes.swift */,
+				3C24910928168F1100D8F39D /* PhotoExemple.swift */,
+				3C24910728168E4500D8F39D /* MainPageModel.swift */,
+				3C24910328168B5600D8F39D /* ShoesView.swift */,
 				3C2D9B1327B5C18E0047BD09 /* ShoesModel.swift */,
 				3C2D9B0927B5C1640047BD09 /* Assets.xcassets */,
 				3C2D9B0B27B5C1640047BD09 /* Preview Content */,
@@ -141,8 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2D9B0827B5C1630047BD09 /* ContentView.swift in Sources */,
+				3C24910C2816983C00D8F39D /* CarrouselShoes.swift in Sources */,
+				3C24910828168E4500D8F39D /* MainPageModel.swift in Sources */,
 				3C2D9B0627B5C1630047BD09 /* NikeCloneApp.swift in Sources */,
+				3C24910628168BA500D8F39D /* MainPageView.swift in Sources */,
 				3C2D9B1427B5C18E0047BD09 /* ShoesModel.swift in Sources */,
+				3C24910A28168F1100D8F39D /* PhotoExemple.swift in Sources */,
+				3C24910428168B5600D8F39D /* ShoesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
